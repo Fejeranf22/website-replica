@@ -88,3 +88,31 @@ body {
 	color: black;
 	padding-left: 35px;
 }
+/*the mobile site stuff*/
+@media screen and (max-width:480px) {
+	.header .logo{
+		width:80%;
+		padding:15px;
+		font-size:25px;
+ }
+
+ .header{
+	 margin: auto;
+	 padding:center;
+	 width:80%;
+ }
+ .logo{
+	 text-align: center;
+	margin: auto;
+	 width:80%;
+ }
+	.sidebar {
+		float:none;
+		margin:auto;
+	}
+	.main{
+		float:none;
+		height:2000px;
+		margin:auto;
+	}
+}
